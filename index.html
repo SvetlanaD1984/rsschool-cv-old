@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>cv</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <nav class="nav">
+          <ul class="nav-list">
+            <li class="nav-item">
+              <a href="#profile" class="nav-link">Profile</a>
+            </li>
+            <li class="nav-item">
+              <a href="#contacts" class="nav-link">Contacts</a>
+            </li>
+            <li class="nav-item">
+              <a href="#summary" class="nav-link">Basic info</a>
+            </li>
+            <li class="nav-item">
+              <a href="#skills" class="nav-link">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a href="#education" class="nav-link">Education</a>
+            </li>
+            <li class="nav-item">
+              <a href="#courses" class="nav-link">Courses</a>
+            </li>
+            <li class="nav-item">
+              <a href="#code" class="nav-link">Code</a>
+            </li>
+            <li class="nav-item">
+              <a href="#projects" class="nav-link">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a href="#languages" class="nav-link">Languages</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main class="main">
+      <div class="container main-container">
+        <div class="main__left">
+          <section class="section" id="profile">
+            <div class="profile">
+              <img
+                src="./assets/img/photo.jpg"
+                alt="photo"
+                class="section-profile-logo"
+              />
+              <h1>Svetlana Davletbaeva</h1>
+              <p>Junior frontend developer</p>
+            </div>
+          </section>
+
+          <section class="section" id="contacts">
+            <h2>Contacts</h2>
+            <hr />
+            <ul>
+              <li>Address: Ufa, Russia</li>
+              <li>Phone: +79374922307</li>
+              <li>E-mail: SvetlanaD1984@yandex.ru</li>
+              <li><a href="https://github.com/SvetlanaD1984">GitHub </a></li>
+              <li>Discord: Svetlana D (SvetlanaD1984)#7197</li>
+              <li>Telegram: @Sveta_Davletbaeva</li>
+            </ul>
+          </section>
+          <section class="section" id="basic">
+            <h2>Basic info</h2>
+            <hr />
+            <p>
+              For me, frontend development is a real art, I want to relate to it
+              and become part of the team that participates in product
+              development, because I am interested in creating new projects,
+              making the client part of these projects convenient, comfortable,
+              understandable.
+            </p>
+          </section>
+          <section class="section" id="education">
+            <h2>Education</h2>
+            <hr />
+            <p>
+              Ufa State Petroleum Technological University (USPТU). Faculty of
+              automation of production processes, “Electric drive and automation
+              of industrial sets and technological complexes”.
+            </p>
+          </section>
+        </div>
+        <div class="main__right">
+          <section class="section" id="skills">
+            <h2>Skills</h2>
+            <hr />
+            <ul>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+              <li>React JS, Vue JS</li>
+              <li>Version control: Git</li>
+              <li>Module Bundlers: Webpack</li>
+              <li>Windows OS</li>
+              <li>Figma(for frontend development)</li>
+              <li>Editors: VSCode</li>
+            </ul>
+          </section>
+
+          <section class="section" id="courses">
+            <h2>Courses</h2>
+            <hr />
+            <ul>
+              <li>IT-Courses “GeekBrains”, frontend development</li>
+              <li>IT-Courses "Rolling Scopes", frontend development</li>
+            </ul>
+          </section>
+
+          <section class="section" id="code">
+            <h2>Code</h2>
+            <hr />
+            <p>
+              <code>
+                function sumTwoSmallestNumbers(numbers) { <br />
+                function compareNumbers(a, b) { <br />
+                if (a > b) return 1; <br />
+                if (a == b) return 0; <br />
+                if (a < b) return -1; } <br />
+                const resultsSort = numbers.sort(compareNumbers); <br />
+                return numbers[0] + numbers[1] }
+              </code>
+            </p>
+          </section>
+          <section class="section" id="projects">
+            <h2>Projects</h2>
+            <hr />
+            <ul>
+              <li>
+                <a href="https://github.com/SvetlanaD1984/ChristmasTask"
+                  >Project 1</a
+                >
+              </li>
+              <li>
+                <a href="https://github.com/SvetlanaD1984/DZjavascript"
+                  >Project 2</a
+                >
+              </li>
+            </ul>
+          </section>
+          <section class="section" id="languages">
+            <h2>Languages</h2>
+            <hr />
+            <p>English - B1 Intermediate</p>
+            <p>Russian - Native</p>
+          </section>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="container">
+        <div class="footer">
+          <div class="footer__left">
+            <a class="footer__left-text" href="https://github.com/SvetlanaD1984"
+              >github</a
+            >
+            <p class="footer__left-text">© 2022</p>
+          </div>
+          <div class="footer__right">
+            <a class="logo" href="https://rs.school/js/"></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
